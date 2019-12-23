@@ -1,0 +1,238 @@
+
+*{box-sizing: border-box;
+	margin: 0;
+    padding: 0;
+}
+body { 
+
+	font-family: ubuntu;
+	color: white;
+	background: rgb(178,98,232);
+background: -moz-linear-gradient(90deg, rgba(178,98,232,1) 3%, rgba(228,80,227,1) 50%, rgba(178,98,232,1) 97%);
+background: -webkit-linear-gradient(90deg, rgba(178,98,232,1) 3%, rgba(228,80,227,1) 50%, rgba(178,98,232,1) 97%);
+background: linear-gradient(90deg, rgba(178,98,232,1) 3%, rgba(228,80,227,1) 50%, rgba(178,98,232,1) 97%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b262e8",endColorstr="#b262e8",GradientType=1);
+}
+
+
+
+.wraper {
+    background: #b124b3e0;
+    width: 567px;
+    height: 600px;
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+    border: 1px solid #c153d8;
+}
+
+.inputWraper {
+    margin: 35px 1px;
+}
+.form_title h1 {
+    padding: 30px;
+    font-size: 2.5em;
+}
+span {
+    font-size: 18px;
+}
+.social_link{
+
+	width: 300px;
+	margin: auto;
+
+}
+
+
+
+.social_link ul li {
+    display: inline-block;
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50px;
+    padding: 6.5px;
+    margin:  5.5px; 
+}
+
+.social_link ul li a:hover ul li {
+	background: red;
+}
+.box {
+    width: 276px;
+    height: 28px;
+   
+    float: left;
+    margin: 10px 0px;
+}
+.emailBox {
+    width: 65%;
+    height: 28px;
+    float: left;
+    margin: 10px 0px;
+}
+.genderBox {
+    width: 35%;
+    float: left;
+    margin: 10px 0px;
+    height: 100%;
+}
+
+    .genderBox select {
+    width: 59%;
+    height: 28px;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    padding: 0px 0px;
+
+}
+.genderBox span{
+	width: 50%;
+	height: 100%
+}
+
+form .box span{
+
+	width: 35%;
+	height: 100%;
+	float: left;
+}  
+form .emailBox span {
+	width: 40%;
+	height: 100%;
+
+	    padding: 16px;
+}
+
+
+form .box input {
+
+border-radius: 2px;
+border: none;	
+width: 65%;
+height: 100%;
+
+}
+form .emailBox input {
+border-radius: 2px;
+border: none;
+    
+width: 69%;
+height: 100%;
+
+}
+
+fieldset ,legend  {
+    border: 2px solid #d477cff2;
+    border-radius: 5px
+}
+input[type="submit"],button {
+    font-family: ubuntu;
+    font-size: 20px;
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: #6825c1;
+    margin: 20px auto;
+
+}
+.countryCode {
+    width: 43%;
+    height: 28px;
+    float: left;
+    margin: 10px 0px;
+}
+
+.countryCode span{
+
+	width: 40%;
+	float: left; 
+
+}
+.countryCode select {
+	width: 60%;
+	height: 28px;
+	float: left; 
+	outline: none;
+    border-radius: 2px;
+    border: none;
+
+
+}
+
+
+
+
+.phoneNumber {
+    width: 57%;
+    height: 28px;
+    float: left;
+    margin: 10px 0px;
+}
+.phoneNumber span{
+	width: 40%;
+	float: left;
+
+}
+.phoneNumber input{
+
+  width: 55%;
+height: 28px;
+ border-radius: 2px;
+    border: none;
+
+}
+
+
+
+/* singin start heare*/
+
+.userName {
+    width: 100%;
+    height: 75px;
+    margin:  10px auto;
+}
+.password {
+    width: 100%;
+    height: 75px;
+    margin:  10px auto;
+}
+
+.userName span,.password span {
+    padding: 5px 100px;
+    font-size: 25px;
+    display: block;
+    text-align: left;
+}
+
+.userName input[type="email"] {
+    width: 60%;
+    height: 50%;
+    border-radius: 3px;
+    border: none;
+    padding: 0px 20px;
+}
+.password input[type="password"] {
+    width: 60%;
+    height: 50%;
+    border-radius: 3px;
+    border: none;
+    padding: 0px 20px;
+}
+
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: underline;
+    color: #d9cae0;
+}
+.singin{
+    width: 500px;
+    height: 550px; 
+}
